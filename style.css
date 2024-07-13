@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(39, 39, 39);
+    height: 90vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calcbox {
+    max-width: 450px;
+    margin: 10px auto;
+    height: auto;
+    border: 2px solid rgb(78, 0, 78);
+    background: linear-gradient(to bottom right, rgb(68, 0, 68), rgb(75, 75, 75), rgb(131, 122, 0));
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    user-select: none;
+}
+
+.outputbox {
+    min-height: 200px;
+    width: 95%;
+    margin: 5px auto;
+    background-color: rgba(20, 20, 20, 0.5);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(4, 4, 4);
+    color: white;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.buttonsbox {
+    width: 95%;
+    margin: 10px auto;
+    height: auto;
+    background-color: rgba(2, 255, 2, 0.425);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(20, 20, 20);
+
+}
+
+.box {
+    width: auto;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 8px;
+    cursor: pointer;
+    box-shadow: 0px 0px 7px rgb(10, 10, 10);
+    border-radius: 7px;
+    transition: all .3s;
+    font-weight: 800;
+}
+
+.box:hover {
+    box-shadow: none;
+    background-color: rgba(18, 18, 18, 0.555);
+}
+
+
+.otp{
+    width: 95%;
+    margin: 3px auto;
+    color: rgb(247, 24, 255);
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+    
+}
+
+.otp2{
+    width: 95%;
+    margin: 3px auto;
+    font-size: 30px;
+    color: rgb(229, 255, 0);
+    letter-spacing: 2px;
+    text-align: right;
+    word-wrap: break-word;
+}
+
+.symbols{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: yellow;
+}
